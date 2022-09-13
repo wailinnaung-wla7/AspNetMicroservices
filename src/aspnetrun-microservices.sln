@@ -17,7 +17,9 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{3174FCA9-2F76-4938-923E-68BCDCC1CF87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{937B95BD-0773-44D2-9D7A-E9CC8F9FEF17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{937B95BD-0773-44D2-9D7A-E9CC8F9FEF17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{230D6933-0F9A-4EEA-9499-A19E598B8182}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{937B95BD-0773-44D2-9D7A-E9CC8F9FEF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{937B95BD-0773-44D2-9D7A-E9CC8F9FEF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{937B95BD-0773-44D2-9D7A-E9CC8F9FEF17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230D6933-0F9A-4EEA-9499-A19E598B8182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230D6933-0F9A-4EEA-9499-A19E598B8182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230D6933-0F9A-4EEA-9499-A19E598B8182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230D6933-0F9A-4EEA-9499-A19E598B8182}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{86FC3879-A0AD-4C65-A33D-57D25664BB9F} = {C60F951B-C2A6-440B-8C84-6A8ACEE20629}
 		{3174FCA9-2F76-4938-923E-68BCDCC1CF87} = {7B094859-708B-4A3E-9D8F-D05F1E813092}
 		{937B95BD-0773-44D2-9D7A-E9CC8F9FEF17} = {3174FCA9-2F76-4938-923E-68BCDCC1CF87}
+		{230D6933-0F9A-4EEA-9499-A19E598B8182} = {3174FCA9-2F76-4938-923E-68BCDCC1CF87}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6761F10C-384C-4853-929A-2FB06C8E7729}
