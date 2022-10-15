@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32413.511
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7B094859-708B-4A3E-9D8F-D05F1E813092}"
 EndProject
@@ -25,11 +25,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{6E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.API", "Services\Ordering\Ordering.API\Ordering.API.csproj", "{B0532CA5-CF69-4DEF-933C-045B9C39FDFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Domain", "Services\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{C95D3C92-D8F7-480D-AE86-082D69680FBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Domain", "Services\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{C95D3C92-D8F7-480D-AE86-082D69680FBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{48D8C2C5-CE09-4EFE-942F-354794F739BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{48D8C2C5-CE09-4EFE-942F-354794F739BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{152766F3-58F9-47CD-835C-B82EABF7DF1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{152766F3-58F9-47CD-835C-B82EABF7DF1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{D0674E39-6FDC-43B1-AB21-56400EE28C06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Messages", "BuildingBlocks\EventBus.Messages\EventBus.Messages.csproj", "{280DB983-DE52-41A1-BB96-1912110E5E8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +77,10 @@ Global
 		{152766F3-58F9-47CD-835C-B82EABF7DF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{152766F3-58F9-47CD-835C-B82EABF7DF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{152766F3-58F9-47CD-835C-B82EABF7DF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280DB983-DE52-41A1-BB96-1912110E5E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280DB983-DE52-41A1-BB96-1912110E5E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280DB983-DE52-41A1-BB96-1912110E5E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280DB983-DE52-41A1-BB96-1912110E5E8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +98,7 @@ Global
 		{C95D3C92-D8F7-480D-AE86-082D69680FBE} = {6EE983ED-8070-4CFA-9584-4C10BEECBD9D}
 		{48D8C2C5-CE09-4EFE-942F-354794F739BF} = {6EE983ED-8070-4CFA-9584-4C10BEECBD9D}
 		{152766F3-58F9-47CD-835C-B82EABF7DF1B} = {6EE983ED-8070-4CFA-9584-4C10BEECBD9D}
+		{280DB983-DE52-41A1-BB96-1912110E5E8E} = {D0674E39-6FDC-43B1-AB21-56400EE28C06}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6761F10C-384C-4853-929A-2FB06C8E7729}
